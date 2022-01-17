@@ -1,0 +1,107 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   49 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::Int8MultiArray>::SharedPtr publisher_;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:49:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:49:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   49 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:49:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   49 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                                               [32m[Krcl_publisher_t[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:52:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   52 |   message_filters::Subscriber<[01;31m[Kstd_msgs[m[K::msg::Int8MultiArray> array_sub_;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:52:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |   message_filters::Subscriber<std_msgs::msg::Int8MultiArray[01;31m[K>[m[K array_sub_;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   53 |   message_filters::Subscriber<[01;31m[Kstd_msgs[m[K::msg::Int8> target_sub_;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   53 |   message_filters::Subscriber<std_msgs::msg::Int8[01;31m[K>[m[K target_sub_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:65:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   65 |   void callback(const [01;31m[Kstd_msgs[m[K::msg::Int8MultiArray array_msg, const std_msgs::msg::Int8 target_msg)
+      |                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:65:36:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   65 |   void callback(const std_msgs::msg[01;31m[K::[m[KInt8MultiArray array_msg, const std_msgs::msg::Int8 target_msg)
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:65:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   65 |   void callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KInt8MultiArray array_msg, const std_msgs::msg::Int8 target_msg)
+      |                [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                    [32m[K)[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:65:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 |   void callback(const std_msgs::[01;31m[Kmsg[m[K::Int8MultiArray array_msg, const std_msgs::msg::Int8 target_msg)
+      |                                 [01;31m[K^~~[m[K
+      |                                    [32m[K;[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:65:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   65 |   void callback(const std_msgs::msg::[01;31m[KInt8MultiArray[m[K array_msg, const std_msgs::msg::Int8 target_msg)
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:33:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::array_sub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   33 |     array_sub_.[01;31m[Ksubscribe[m[K(this,"/input",10);
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:34:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::target_sub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   34 |     target_sub_.[01;31m[Ksubscribe[m[K(this,"/target",10);
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[KApproximateTime[m[K’ in namespace ‘[01m[Kmessage_filters::sync_policies[m[K’ does not name a template type
+   36 |     typedef message_filters::sync_policies::[01;31m[KApproximateTime[m[K<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> approximate_policy;
+      |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:37:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproximate_policy[m[K’ was not declared in this scope
+   37 |     message_filters::Synchronizer<[01;31m[Kapproximate_policy[m[K>syncApproximate(approximate_policy(10), array_sub_, target_sub_);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:37:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |     message_filters::Synchronizer<approximate_policy[01;31m[K>[m[KsyncApproximate(approximate_policy(10), array_sub_, target_sub_);
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:37:117:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   37 |     message_filters::Synchronizer<approximate_policy>syncApproximate(approximate_policy(10), array_sub_, target_sub_[01;31m[K)[m[K;
+      |                                                                                                                     [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:39:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KregisterCallback[m[K’ in ‘[01m[KsyncApproximate[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   39 |     syncApproximate.[01;31m[KregisterCallback[m[K(&MinimalSubscriber::callback,this);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   41 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   41 |     publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::Int8MultiArray>("/solution", 10);
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   41 |     publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::Int8MultiArray>[m[K("/solution", 10);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_publisher<<expression error> >(const char [10], int)[m[K’
+   41 |     publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10[01;31m[K)[m[K;
+      |                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |     publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10[01;31m[K)[m[K;
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:43:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   43 |       [01;31m[K500ms[m[K, std::bind(&MinimalSubscriber::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+   57 |     [01;31m[Kstd_msgs[m[K::msg::Int8MultiArray message;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   58 |     [01;31m[Kmessage[m[K.data.clear();
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   62 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

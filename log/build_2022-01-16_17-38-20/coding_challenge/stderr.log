@@ -1,0 +1,13 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::input_callback(std_msgs::msg::Int8MultiArray_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:71:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   71 |     input.layout.dim.push_back(std_msgs::msg::MultiArrayDimension())[01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::calc_result()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:120:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  120 |     result.layout.dim.push_back(std_msgs::msg::MultiArrayDimension())[01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

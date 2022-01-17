@@ -1,0 +1,427 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000147] (two_sum) JobQueued: {'identifier': 'two_sum', 'dependencies': OrderedDict()}
+[0.000161] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.015790] (two_sum) JobStarted: {'identifier': 'two_sum'}
+[0.025766] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.032702] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.032779] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:29571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1103,unix/usama-VirtualBox:/tmp/.ICE-unix/1103'), ('INVOCATION_ID', '47096093e4f04b3e9ee6b98aff77ecfb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a4c8bd0_dd72_4234_8c85_058141da6203'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045427] (two_sum) JobProgress: {'identifier': 'two_sum', 'progress': 'cmake'}
+[0.049122] (two_sum) JobProgress: {'identifier': 'two_sum', 'progress': 'build'}
+[0.049216] (two_sum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/two_sum', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/two_sum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:29571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1103,unix/usama-VirtualBox:/tmp/.ICE-unix/1103'), ('INVOCATION_ID', '47096093e4f04b3e9ee6b98aff77ecfb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a4c8bd0_dd72_4234_8c85_058141da6203'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/two_sum'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.101448] (-) TimerEvent: {}
+[0.202305] (-) TimerEvent: {}
+[0.273671] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.295007] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.310357] (-) TimerEvent: {}
+[0.395272] (two_sum) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.397327] (two_sum) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.401023] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.407766] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.410242] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.410411] (-) TimerEvent: {}
+[0.414999] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.418524] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.460634] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.495234] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.513390] (-) TimerEvent: {}
+[0.617125] (-) TimerEvent: {}
+[0.635089] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.671806] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target mimic\n'}
+[0.671942] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[0.674542] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.709051] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[0.718312] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim_node\n'}
+[0.718417] (-) TimerEvent: {}
+[0.786157] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.786366] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.786472] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.797418] (turtlesim) CommandEnded: {'returncode': 0}
+[0.820791] (-) TimerEvent: {}
+[0.923220] (-) TimerEvent: {}
+[1.028561] (-) TimerEvent: {}
+[1.131932] (-) TimerEvent: {}
+[1.234435] (-) TimerEvent: {}
+[1.336349] (-) TimerEvent: {}
+[1.441732] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[1.441845] (-) TimerEvent: {}
+[1.466408] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usama/autoronto/coding_test/build/turtlesim'], 'cwd': '/home/usama/autoronto/coding_test/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:29571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1103,unix/usama-VirtualBox:/tmp/.ICE-unix/1103'), ('INVOCATION_ID', '47096093e4f04b3e9ee6b98aff77ecfb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a4c8bd0_dd72_4234_8c85_058141da6203'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.507884] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.510181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[1.511433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.513151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.516391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[1.516482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[1.516531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.516569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[1.517364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[1.517406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[1.518437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[1.518495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[1.518535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[1.518571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[1.518605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[1.518639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[1.518672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[1.518704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[1.518736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[1.521614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[1.524473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[1.524537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[1.524578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[1.524614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[1.524650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[1.524685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[1.524718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[1.524752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[1.524784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[1.525296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[1.525365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.526074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.526433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[1.526496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[1.526539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[1.526576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[1.527041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[1.527107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.527567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.527996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[1.528056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[1.528096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[1.528133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[1.532451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[1.532532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[1.532586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[1.532632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[1.532675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.532717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[1.533553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[1.536348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[1.536411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[1.541507] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[1.543637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.543699] (-) TimerEvent: {}
+[1.544146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.544215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.544258] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.544469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.544502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.544569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.544608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.544678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.545092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[1.549953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.550019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.550065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.550103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[1.551431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.551543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.551577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[1.551664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.551700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.551735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.551804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[1.551838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.552767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.557411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.557484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.557530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.557570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[1.557609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[1.557644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[1.557678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[1.557717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[1.557751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[1.557786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[1.557826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[1.557860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[1.557894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.557930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.557963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.557996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.558029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[1.558062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.558094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.558125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[1.558157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[1.558188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[1.558221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[1.558254] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.559408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[1.561126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[1.566815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.566881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.566925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[1.566967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.567004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[1.567039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[1.567072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[1.567106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[1.567139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[1.567171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[1.567203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[1.567261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[1.567304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[1.571003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[1.571054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[1.571095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[1.571141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[1.571185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[1.571229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[1.571265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[1.571300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[1.571334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[1.571366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[1.571398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.571430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[1.571463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.571496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[1.571529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[1.571561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[1.571592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.571624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[1.571657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.574409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[1.574472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[1.574514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[1.574552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[1.574594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[1.574633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[1.574667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[1.574700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim\n'}
+[1.574734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv\n'}
+[1.574767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail\n'}
+[1.575203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[1.575361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[1.575394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[1.575495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[1.575527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[1.575559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action\n'}
+[1.575592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail\n'}
+[1.575633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[1.575666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575699] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg\n'}
+[1.575731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail\n'}
+[1.575763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[1.575795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[1.575865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.577180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[1.580618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[1.581397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[1.581458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[1.585925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[1.641941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[1.645430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.645508] (-) TimerEvent: {}
+[1.645618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[1.646297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.646361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[1.646593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[1.646652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[1.647587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[1.647722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[1.647975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[1.648106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[1.648375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[1.648434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[1.648475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.648511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.648545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[1.648579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[1.648612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.648706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.648746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[1.648781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.648862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.649033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.652689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.656430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.658050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/libturtlesim__python.so\n'}
+[1.658564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.659631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.659691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.663040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.663106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.663150] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.663806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.664011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.664117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.664611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.664745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.664917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.665362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.665413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.665453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.666299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.666346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.668603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.668646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.669178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.669431] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.670158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.670537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.670580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.670616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.673789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.677161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.685351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.692537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.699976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.700882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images\n'}
+[1.710018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.710187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.710240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.713054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.713693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.713768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.713815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/launch\n'}
+[1.718322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.721784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.725406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.727286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.727406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.727535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.727589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.727634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.729615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.729675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.729716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.729753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.738272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.747281] (-) TimerEvent: {}
+[1.749455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.749525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.755403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.755470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.758451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.758512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.762091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.767268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.767334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.774563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.774630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.774674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.774711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.774748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.775678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.775736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.775776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.775812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.775847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.775882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.775915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.780234] (turtlesim) CommandEnded: {'returncode': 0}
+[1.847522] (-) TimerEvent: {}
+[1.950814] (-) TimerEvent: {}
+[2.057907] (-) TimerEvent: {}
+[2.158648] (-) TimerEvent: {}
+[2.262352] (-) TimerEvent: {}
+[2.370788] (-) TimerEvent: {}
+[2.394788] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[2.476605] (-) TimerEvent: {}
+[2.577092] (-) TimerEvent: {}
+[2.683568] (-) TimerEvent: {}
+[2.785132] (-) TimerEvent: {}
+[2.892533] (-) TimerEvent: {}
+[2.995684] (-) TimerEvent: {}
+[3.099593] (-) TimerEvent: {}
+[3.210535] (-) TimerEvent: {}
+[3.311194] (-) TimerEvent: {}
+[3.411750] (-) TimerEvent: {}
+[3.512691] (-) TimerEvent: {}
+[3.614186] (-) TimerEvent: {}
+[3.718634] (-) TimerEvent: {}
+[3.820616] (-) TimerEvent: {}
+[3.922225] (-) TimerEvent: {}
+[4.023555] (-) TimerEvent: {}
+[4.125846] (-) TimerEvent: {}
+[4.296395] (-) TimerEvent: {}
+[4.397697] (-) TimerEvent: {}
+[4.499851] (-) TimerEvent: {}
+[4.601366] (-) TimerEvent: {}
+[4.705891] (-) TimerEvent: {}
+[4.811580] (-) TimerEvent: {}
+[4.914161] (-) TimerEvent: {}
+[5.016562] (-) TimerEvent: {}
+[5.135746] (-) TimerEvent: {}
+[5.236358] (-) TimerEvent: {}
+[5.337112] (-) TimerEvent: {}
+[5.444149] (-) TimerEvent: {}
+[5.545163] (-) TimerEvent: {}
+[5.648282] (-) TimerEvent: {}
+[5.750025] (-) TimerEvent: {}
+[5.852314] (-) TimerEvent: {}
+[5.948963] (two_sum) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.952719] (-) TimerEvent: {}
+[6.056351] (-) TimerEvent: {}
+[6.117424] (two_sum) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[6.159936] (-) TimerEvent: {}
+[6.261740] (-) TimerEvent: {}
+[6.365668] (-) TimerEvent: {}
+[6.467432] (-) TimerEvent: {}
+[6.569742] (-) TimerEvent: {}
+[6.672295] (-) TimerEvent: {}
+[6.773818] (-) TimerEvent: {}
+[6.874982] (-) TimerEvent: {}
+[6.978930] (-) TimerEvent: {}
+[7.081424] (-) TimerEvent: {}
+[7.183002] (-) TimerEvent: {}
+[7.285510] (-) TimerEvent: {}
+[7.387090] (-) TimerEvent: {}
+[7.497428] (-) TimerEvent: {}
+[7.601032] (-) TimerEvent: {}
+[7.708343] (-) TimerEvent: {}
+[7.809005] (-) TimerEvent: {}
+[7.911582] (-) TimerEvent: {}
+[8.013026] (-) TimerEvent: {}
+[8.117606] (-) TimerEvent: {}
+[8.146903] (two_sum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.286870] (-) TimerEvent: {}
+[8.317507] (two_sum) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.325251] (two_sum) CommandEnded: {'returncode': 0}
+[8.353392] (two_sum) JobProgress: {'identifier': 'two_sum', 'progress': 'install'}
+[8.353462] (two_sum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usama/autoronto/coding_test/build/two_sum'], 'cwd': '/home/usama/autoronto/coding_test/build/two_sum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:29571'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1103,unix/usama-VirtualBox:/tmp/.ICE-unix/1103'), ('INVOCATION_ID', '47096093e4f04b3e9ee6b98aff77ecfb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a4c8bd0_dd72_4234_8c85_058141da6203'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/two_sum'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.358892] (two_sum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.359138] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker\n'}
+[8.360458] (two_sum) StdoutLine: {'line': b'-- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker" to ""\n'}
+[8.360731] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener\n'}
+[8.362228] (two_sum) StdoutLine: {'line': b'-- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener" to ""\n'}
+[8.364773] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/package_run_dependencies/two_sum\n'}
+[8.365497] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/parent_prefix_path/two_sum\n'}
+[8.365935] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.sh\n'}
+[8.366346] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.dsv\n'}
+[8.366787] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.sh\n'}
+[8.367204] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.dsv\n'}
+[8.367715] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.bash\n'}
+[8.368091] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.sh\n'}
+[8.368491] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.zsh\n'}
+[8.368909] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.dsv\n'}
+[8.369237] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.dsv\n'}
+[8.373114] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/packages/two_sum\n'}
+[8.373187] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig.cmake\n'}
+[8.373840] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig-version.cmake\n'}
+[8.374233] (two_sum) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.xml\n'}
+[8.377066] (two_sum) CommandEnded: {'returncode': 0}
+[8.387024] (-) TimerEvent: {}
+[8.407636] (two_sum) JobEnded: {'identifier': 'two_sum', 'rc': 0}
+[8.408398] (-) EventReactorShutdown: {}

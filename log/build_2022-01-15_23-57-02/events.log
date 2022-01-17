@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.003752] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003781] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003796] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.003810] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.020767] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.026167] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.026781] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.090330] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.098964] (-) TimerEvent: {}
+[0.120351] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.125490] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.207488] (-) TimerEvent: {}
+[0.316679] (-) TimerEvent: {}
+[0.418051] (-) TimerEvent: {}
+[0.521846] (-) TimerEvent: {}
+[0.622782] (-) TimerEvent: {}
+[0.723198] (-) TimerEvent: {}
+[0.824512] (-) TimerEvent: {}
+[0.925997] (-) TimerEvent: {}
+[1.028540] (-) TimerEvent: {}
+[1.130140] (-) TimerEvent: {}
+[1.230706] (-) TimerEvent: {}
+[1.332210] (-) TimerEvent: {}
+[1.433781] (-) TimerEvent: {}
+[1.538288] (-) TimerEvent: {}
+[1.639827] (-) TimerEvent: {}
+[1.740420] (-) TimerEvent: {}
+[1.841980] (-) TimerEvent: {}
+[1.943543] (-) TimerEvent: {}
+[2.044294] (-) TimerEvent: {}
+[2.147416] (-) TimerEvent: {}
+[2.248443] (-) TimerEvent: {}
+[2.349016] (-) TimerEvent: {}
+[2.452862] (-) TimerEvent: {}
+[2.554068] (-) TimerEvent: {}
+[2.654675] (-) TimerEvent: {}
+[2.755232] (-) TimerEvent: {}
+[2.856841] (-) TimerEvent: {}
+[2.969117] (-) TimerEvent: {}
+[3.073583] (-) TimerEvent: {}
+[3.175142] (-) TimerEvent: {}
+[3.284957] (-) TimerEvent: {}
+[3.386416] (-) TimerEvent: {}
+[3.492142] (-) TimerEvent: {}
+[3.607388] (-) TimerEvent: {}
+[3.707851] (-) TimerEvent: {}
+[3.808267] (-) TimerEvent: {}
+[3.909825] (-) TimerEvent: {}
+[4.014263] (-) TimerEvent: {}
+[4.121349] (-) TimerEvent: {}
+[4.226227] (-) TimerEvent: {}
+[4.326903] (-) TimerEvent: {}
+[4.428979] (-) TimerEvent: {}
+[4.530532] (-) TimerEvent: {}
+[4.631111] (-) TimerEvent: {}
+[4.732663] (-) TimerEvent: {}
+[4.833246] (-) TimerEvent: {}
+[4.934783] (-) TimerEvent: {}
+[5.035548] (-) TimerEvent: {}
+[5.139126] (-) TimerEvent: {}
+[5.248999] (-) TimerEvent: {}
+[5.356610] (-) TimerEvent: {}
+[5.466652] (-) TimerEvent: {}
+[5.571784] (-) TimerEvent: {}
+[5.673590] (-) TimerEvent: {}
+[5.776924] (-) TimerEvent: {}
+[5.877703] (-) TimerEvent: {}
+[5.978467] (-) TimerEvent: {}
+[6.080630] (-) TimerEvent: {}
+[6.183148] (-) TimerEvent: {}
+[6.285266] (-) TimerEvent: {}
+[6.386779] (-) TimerEvent: {}
+[6.491522] (-) TimerEvent: {}
+[6.597881] (-) TimerEvent: {}
+[6.703603] (-) TimerEvent: {}
+[6.804036] (-) TimerEvent: {}
+[6.906306] (-) TimerEvent: {}
+[7.007843] (-) TimerEvent: {}
+[7.103670] (coding_challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.110516] (-) TimerEvent: {}
+[7.211173] (-) TimerEvent: {}
+[7.312751] (-) TimerEvent: {}
+[7.347343] (coding_challenge) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.362092] (coding_challenge) CommandEnded: {'returncode': 0}
+[7.387970] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'install'}
+[7.403393] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/usama/autoronto/coding_test/build/coding_challenge'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.413154] (-) TimerEvent: {}
+[7.417714] (coding_challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.417816] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/talker\n'}
+[7.417868] (coding_challenge) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener\n'}
+[7.424713] (coding_challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener" to ""\n'}
+[7.424799] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/package_run_dependencies/coding_challenge\n'}
+[7.430551] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/parent_prefix_path/coding_challenge\n'}
+[7.432525] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.sh\n'}
+[7.433095] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.dsv\n'}
+[7.433148] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.sh\n'}
+[7.433191] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.dsv\n'}
+[7.434737] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.bash\n'}
+[7.436293] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.sh\n'}
+[7.436453] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.zsh\n'}
+[7.436501] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.dsv\n'}
+[7.436544] (coding_challenge) StdoutLine: {'line': b'-- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.dsv\n'}
+[7.436583] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/packages/coding_challenge\n'}
+[7.437500] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig.cmake\n'}
+[7.437863] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig-version.cmake\n'}
+[7.445567] (coding_challenge) StdoutLine: {'line': b'-- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.xml\n'}
+[7.445616] (coding_challenge) CommandEnded: {'returncode': 0}
+[7.511899] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 0}
+[7.533366] (-) TimerEvent: {}
+[7.549514] (-) EventReactorShutdown: {}

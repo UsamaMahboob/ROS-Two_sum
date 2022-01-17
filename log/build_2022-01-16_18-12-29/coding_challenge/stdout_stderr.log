@@ -1,0 +1,36 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:32:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSubscriberAndPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   32 |   SubscriberAndPublisher([01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kint MinimalSubscriber::SubscriberAndPublisher()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:33:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   33 |   : [01;31m[KNode[m[K("SubscriberAndPublisher")
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   45 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::calc_result()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:92:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   92 |     for(auto i=0; [01;35m[Ki< input.data.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriberAndPublisher[m[K’ was not declared in this scope
+  108 |   rclcpp::spin(std::make_shared<[01;31m[KSubscriberAndPublisher[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:108:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  108 |   rclcpp::spin(std::make_shared<SubscriberAndPublisher>([01;31m[K)[m[K);
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:15[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:108:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |   rclcpp::spin(std::make_shared<SubscriberAndPublisher>([01;31m[K)[m[K);
+      |                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

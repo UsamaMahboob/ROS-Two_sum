@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.373s] [35m[1mScanning dependencies of target listener[0m
+[0.397s] [ 50%] Built target talker
+[0.403s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[7.483s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.756s] [100%] Built target listener
+[7.784s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[7.822s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/coding_challenge
+[7.832s] -- Install configuration: ""
+[7.835s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/talker
+[7.838s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener
+[7.844s] -- Set runtime path of "/home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener" to ""
+[7.851s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/package_run_dependencies/coding_challenge
+[7.853s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/parent_prefix_path/coding_challenge
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.sh
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.dsv
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.sh
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.dsv
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.bash
+[7.857s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.sh
+[7.858s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.zsh
+[7.861s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.dsv
+[7.861s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.dsv
+[7.867s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/packages/coding_challenge
+[7.867s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig.cmake
+[7.867s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig-version.cmake
+[7.870s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.xml
+[7.873s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/coding_challenge

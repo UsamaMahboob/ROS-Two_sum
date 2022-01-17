@@ -1,0 +1,3 @@
+Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usama/autoronto/coding_test/src/two_sum -DCMAKE_INSTALL_PREFIX=/home/usama/autoronto/coding_test/install/two_sum
+Invoked command in '/home/usama/autoronto/coding_test/build/two_sum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usama/autoronto/coding_test/src/two_sum -DCMAKE_INSTALL_PREFIX=/home/usama/autoronto/coding_test/install/two_sum
+Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/two_sum -- -j8 -l8

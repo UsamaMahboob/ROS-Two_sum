@@ -1,0 +1,12 @@
+[0.036s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.460s] [35m[1mScanning dependencies of target listener[0m
+[0.488s] [ 50%] Built target talker
+[0.495s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.501s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:32:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[1.502s]    32 | #include [01;31m[K"ros/ros.h"[m[K
+[1.502s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[1.502s] compilation terminated.
+[1.508s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.514s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[1.514s] make: *** [Makefile:141: all] Error 2
+[1.536s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

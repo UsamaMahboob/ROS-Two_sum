@@ -1,0 +1,40 @@
+[0.020s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.056s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.242s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.601s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.661s] -- Configuring done
+[0.736s] -- Generating done
+[0.765s] -- Build files have been written to: /home/usama/autoronto/coding_test/build/coding_challenge
+[0.816s] [35m[1mScanning dependencies of target listener[0m
+[0.878s] [ 50%] Built target talker
+[0.897s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[7.750s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.018s] [100%] Built target listener
+[8.038s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[8.068s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/coding_challenge
+[8.073s] -- Install configuration: ""
+[8.076s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/talker
+[8.078s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener
+[8.082s] -- Set runtime path of "/home/usama/autoronto/coding_test/install/coding_challenge/lib/coding_challenge/listener" to ""
+[8.082s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/package_run_dependencies/coding_challenge
+[8.083s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/parent_prefix_path/coding_challenge
+[8.084s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.sh
+[8.084s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/ament_prefix_path.dsv
+[8.086s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.sh
+[8.086s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/environment/path.dsv
+[8.096s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.bash
+[8.096s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.sh
+[8.096s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.zsh
+[8.096s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/local_setup.dsv
+[8.097s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.dsv
+[8.097s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/ament_index/resource_index/packages/coding_challenge
+[8.097s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig.cmake
+[8.099s] -- Up-to-date: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/cmake/coding_challengeConfig-version.cmake
+[8.099s] -- Installing: /home/usama/autoronto/coding_test/install/coding_challenge/share/coding_challenge/package.xml
+[8.110s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/coding_challenge

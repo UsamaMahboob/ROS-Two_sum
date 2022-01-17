@@ -1,0 +1,37 @@
+[0.131s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.181s] [35m[1mScanning dependencies of target listener[0m
+[0.213s] [ 50%] Built target talker
+[0.231s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.430s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.430s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeSynchronizer[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage_filters::TimeSynchronizer[m[K’?
+[1.430s]    51 |     [01;31m[KTimeSynchronizer[m[K<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10);
+[1.430s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.432s]       |     [32m[Kmessage_filters::TimeSynchronizer[m[K
+[1.432s] In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:31[m[K:
+[1.432s] [01m[K/opt/ros/foxy/include/message_filters/time_synchronizer.h:83:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmessage_filters::TimeSynchronizer[m[K’ declared here
+[1.432s]    83 | class [01;36m[KTimeSynchronizer[m[K : public Synchronizer<sync_policies::ExactTime<M0, M1, M2, M3, M4, M5, M6, M7, M8> >
+[1.432s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.432s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:51:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[1.432s]    51 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray[01;31m[K,[m[K std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10);
+[1.432s]       |                                                   [01;31m[K^[m[K
+[1.432s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:51:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.432s]    51 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8[01;31m[K>[m[K sync(array_sub_, target_sub_, 10);
+[1.432s]       |                                                                        [01;31m[K^[m[K
+[1.432s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:51:106:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid sync()[m[K’
+[1.432s]    51 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10[01;31m[K)[m[K;
+[1.432s]       |                                                                                                          [01;31m[K^[m[K
+[1.433s] In file included from [01m[K/usr/include/boost/config/stdlib/libstdcpp3.hpp:78[m[K,
+[1.433s]                  from [01m[K/usr/include/boost/config.hpp:49[m[K,
+[1.433s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[1.433s]                  from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+[1.433s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:30[m[K:
+[1.433s] [01m[K/usr/include/unistd.h:970:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.433s]   970 | extern void [01;36m[Ksync[m[K (void) __THROW;
+[1.433s]       |             [01;36m[K^~~~[m[K
+[1.433s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:52:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KregisterCallback[m[K’ in ‘[01m[Ksync[m[K’, which is of non-class type ‘[01m[Kvoid() throw ()[m[K’ {aka ‘[01m[Kvoid()[m[K’}
+[1.433s]    52 |     sync.[01;31m[KregisterCallback[m[K(boost::bind(&MinimalSubscriber::callback,this, _1, _2));
+[1.433s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.022s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.023s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[3.042s] make: *** [Makefile:141: all] Error 2
+[3.059s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

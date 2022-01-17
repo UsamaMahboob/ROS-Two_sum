@@ -1,0 +1,44 @@
+[0.014s] Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usama/autoronto/coding_test/src/two_sum -DCMAKE_INSTALL_PREFIX=/home/usama/autoronto/coding_test/install/two_sum
+[0.321s] -- The C compiler identification is GNU 9.3.0
+[0.885s] -- The CXX compiler identification is GNU 9.3.0
+[0.985s] -- Check for working C compiler: /usr/bin/cc
+[1.138s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.141s] -- Detecting C compiler ABI info
+[1.265s] -- Detecting C compiler ABI info - done
+[1.273s] -- Detecting C compile features
+[1.274s] -- Detecting C compile features - done
+[1.277s] -- Check for working CXX compiler: /usr/bin/c++
+[1.347s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.352s] -- Detecting CXX compiler ABI info
+[1.417s] -- Detecting CXX compiler ABI info - done
+[1.428s] -- Detecting CXX compile features
+[1.436s] -- Detecting CXX compile features - done
+[1.455s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.641s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.827s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.846s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.997s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.999s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.000s] -- Looking for pthread.h
+[2.068s] -- Looking for pthread.h - found
+[2.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.148s] -- Looking for pthread_create in pthreads
+[2.210s] -- Looking for pthread_create in pthreads - not found
+[2.210s] -- Looking for pthread_create in pthread
+[2.276s] -- Looking for pthread_create in pthread - found
+[2.277s] -- Found Threads: TRUE  
+[2.521s] -- Configuring done
+[2.528s] -- Generating done
+[2.529s] -- Build files have been written to: /home/usama/autoronto/coding_test/build/two_sum
+[2.538s] Invoked command in '/home/usama/autoronto/coding_test/build/two_sum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usama/autoronto/coding_test/src/two_sum -DCMAKE_INSTALL_PREFIX=/home/usama/autoronto/coding_test/install/two_sum
+[2.540s] Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/two_sum -- -j8 -l8
+[2.575s] [35m[1mScanning dependencies of target talker[0m
+[2.576s] [35m[1mScanning dependencies of target listener[0m
+[3.152s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.152s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m

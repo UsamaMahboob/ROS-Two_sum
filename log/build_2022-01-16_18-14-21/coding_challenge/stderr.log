@@ -1,0 +1,4 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid SubscriberAndPublisher::calc_result()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:92:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   92 |     for(auto i=0; [01;35m[Ki< input.data.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K

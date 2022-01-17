@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000454] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000698] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.001009] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.032518] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.046344] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.076071] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100437] (-) TimerEvent: {}
+[0.162683] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.201153] (-) TimerEvent: {}
+[0.210013] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.215767] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.301261] (-) TimerEvent: {}
+[0.402869] (-) TimerEvent: {}
+[0.509754] (-) TimerEvent: {}
+[0.610833] (-) TimerEvent: {}
+[0.713907] (-) TimerEvent: {}
+[0.814970] (-) TimerEvent: {}
+[0.925322] (-) TimerEvent: {}
+[1.028136] (-) TimerEvent: {}
+[1.128680] (-) TimerEvent: {}
+[1.150251] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.150489] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimeSynchronizer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::TimeSynchronizer\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.150626] (coding_challenge) StderrLine: {'line': b'   47 |     \x1b[01;31m\x1b[KTimeSynchronizer\x1b[m\x1b[K<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10);\n'}
+[1.150747] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.150822] (coding_challenge) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kmessage_filters::TimeSynchronizer\x1b[m\x1b[K\n'}
+[1.150876] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:31\x1b[m\x1b[K:\n'}
+[1.150925] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/time_synchronizer.h:83:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::TimeSynchronizer\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.150972] (coding_challenge) StderrLine: {'line': b'   83 | class \x1b[01;36m\x1b[KTimeSynchronizer\x1b[m\x1b[K : public Synchronizer<sync_policies::ExactTime<M0, M1, M2, M3, M4, M5, M6, M7, M8> >\n'}
+[1.151084] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.151134] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.151190] (coding_challenge) StderrLine: {'line': b'   47 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray\x1b[01;31m\x1b[K,\x1b[m\x1b[K std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10);\n'}
+[1.151238] (coding_challenge) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.151802] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.151878] (coding_challenge) StderrLine: {'line': b'   47 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8\x1b[01;31m\x1b[K>\x1b[m\x1b[K sync(array_sub_, target_sub_, 10);\n'}
+[1.151927] (coding_challenge) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.151969] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:106:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo many arguments to function \xe2\x80\x98\x1b[01m\x1b[Kvoid sync()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.152009] (coding_challenge) StderrLine: {'line': b'   47 |     TimeSynchronizer<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> sync(array_sub_, target_sub_, 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.152048] (coding_challenge) StderrLine: {'line': b'      |                                                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.152084] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/config/stdlib/libstdcpp3.hpp:78\x1b[m\x1b[K,\n'}
+[1.152121] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/config.hpp:49\x1b[m\x1b[K,\n'}
+[1.152157] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:24\x1b[m\x1b[K,\n'}
+[1.152192] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:22\x1b[m\x1b[K,\n'}
+[1.152226] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:30\x1b[m\x1b[K:\n'}
+[1.152263] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/unistd.h:970:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.152299] (coding_challenge) StderrLine: {'line': b'  970 | extern void \x1b[01;36m\x1b[Ksync\x1b[m\x1b[K (void) __THROW;\n'}
+[1.152520] (coding_challenge) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.152580] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:49:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KregisterCallback\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Ksync\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kvoid() throw ()\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kvoid()\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.152625] (coding_challenge) StderrLine: {'line': b'   49 |     sync.\x1b[01;31m\x1b[KregisterCallback\x1b[m\x1b[K(std::bind(&MinimalSubscriber::callback,this,_1,_2));\n'}
+[1.152676] (coding_challenge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.230042] (-) TimerEvent: {}
+[1.330593] (-) TimerEvent: {}
+[1.432154] (-) TimerEvent: {}
+[1.532731] (-) TimerEvent: {}
+[1.633271] (-) TimerEvent: {}
+[1.733947] (-) TimerEvent: {}
+[1.835463] (-) TimerEvent: {}
+[1.937090] (-) TimerEvent: {}
+[2.038591] (-) TimerEvent: {}
+[2.143946] (-) TimerEvent: {}
+[2.245559] (-) TimerEvent: {}
+[2.355953] (-) TimerEvent: {}
+[2.458913] (-) TimerEvent: {}
+[2.534014] (coding_challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[2.535459] (coding_challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[2.535579] (coding_challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.541323] (coding_challenge) CommandEnded: {'returncode': 2}
+[2.561136] (-) TimerEvent: {}
+[2.575855] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 2}
+[2.588218] (-) EventReactorShutdown: {}

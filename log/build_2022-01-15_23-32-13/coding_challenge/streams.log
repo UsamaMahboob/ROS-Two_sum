@@ -1,0 +1,257 @@
+[0.060s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.163s] [35m[1mScanning dependencies of target talker[0m
+[0.185s] [ 50%] Built target listener
+[0.203s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.168s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.168s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:35:85:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[1.168s]    35 |     publisher2_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;31m[K)[m[K;
+[1.168s]       |                                                                                     [01;31m[K^[m[K
+[1.168s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.168s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.168s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.168s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.169s]       |                   [01;36m[K^~~~~~~~[m[K
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >&[m[K’
+[1.169s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[1.169s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.169s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.169s]       |  [01;36m[K^~~~~~~~[m[K
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.169s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’:
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.169s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:35:85:[m[K   required from here
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >&>[m[K’
+[1.169s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.169s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.169s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.169s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.169s]       |  [01;36m[K^~~~~~~~[m[K
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.170s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:35:85:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[1.170s]    35 |     publisher2_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;36m[K)[m[K;
+[1.170s]       |                                                                                     [01;36m[K^[m[K
+[1.170s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.170s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.170s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.170s]       |       [01;36m[K^~~~~~~~[m[K
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >&&[m[K’
+[1.170s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[1.170s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.170s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.170s]       |  [01;36m[K^~~~~~~~[m[K
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.170s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’:
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.170s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:35:85:[m[K   required from here
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > > >&>[m[K’
+[1.170s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.170s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.170s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.170s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.170s]       |  [01;36m[K^~~~~~~~[m[K
+[1.171s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.171s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:35:85:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[1.171s]    35 |     publisher2_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;36m[K)[m[K;
+[1.171s]       |                                                                                     [01;36m[K^[m[K
+[1.176s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.179s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher1_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[1.180s]    46 |     [01;31m[Kpublisher1_[m[K->publish(message);
+[1.180s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.180s]       |     [32m[Kpublisher_[m[K
+[1.180s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbegin(std_msgs::msg::Int8MultiArray_<std::allocator<void> >&)[m[K’
+[1.180s]    52 |     for (char i: [01;31m[Kmessage2[m[K)
+[1.180s]       |                  [01;31m[K^~~~~~~~[m[K
+[1.180s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.180s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.180s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.182s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.182s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)[m[K’
+[1.182s]    89 |     [01;36m[Kbegin[m[K(initializer_list<_Tp> __ils) noexcept
+[1.182s]       |     [01;36m[K^~~~~[m[K
+[1.182s] [01m[K/usr/include/c++/9/initializer_list:89:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.182s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+[1.182s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.182s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.182s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.182s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.182s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.183s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.183s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.183s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.183s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&)[m[K’
+[1.183s]    48 |     [01;36m[Kbegin[m[K(_Container& __cont) -> decltype(__cont.begin())
+[1.183s]       |     [01;36m[K^~~~~[m[K
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:48:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.183s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >][m[K’:
+[1.183s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K   required from here
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:48:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kbegin[m[K’
+[1.183s]    48 |     begin(_Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.183s]       |                                           [01;31m[K~~~~~~~^~~~~[m[K
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&)[m[K’
+[1.183s]    58 |     [01;36m[Kbegin[m[K(const _Container& __cont) -> decltype(__cont.begin())
+[1.183s]       |     [01;36m[K^~~~~[m[K
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:58:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.183s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >][m[K’:
+[1.183s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K   required from here
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:58:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kbegin[m[K’
+[1.183s]    58 |     begin(const _Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[1.183s]       |                                                 [01;31m[K~~~~~~~^~~~~[m[K
+[1.183s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])[m[K’
+[1.183s]    87 |     [01;36m[Kbegin[m[K(_Tp (&__arr)[_Nm])
+[1.183s]       |     [01;36m[K^~~~~[m[K
+[1.184s] [01m[K/usr/include/c++/9/bits/range_access.h:87:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.184s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’
+[1.184s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.184s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.184s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.184s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.184s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.184s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.184s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.184s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.184s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.184s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)[m[K’
+[1.184s]   104 |   template<typename _Tp> _Tp* [01;36m[Kbegin[m[K(valarray<_Tp>&);
+[1.184s]       |                               [01;36m[K^~~~~[m[K
+[1.184s] [01m[K/usr/include/c++/9/bits/range_access.h:104:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.184s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::valarray<_Tp>[m[K’
+[1.184s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.184s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.184s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.185s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.185s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.185s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.185s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.185s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.185s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.186s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)[m[K’
+[1.186s]   105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+[1.186s]       |                                     [01;36m[K^~~~~[m[K
+[1.186s] [01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.186s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[1.186s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.186s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.186s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kend(std_msgs::msg::Int8MultiArray_<std::allocator<void> >&)[m[K’
+[1.186s] In file included from [01m[K/usr/include/c++/9/utility:76[m[K,
+[1.186s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:36[m[K,
+[1.186s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.186s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.186s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)[m[K’
+[1.186s]    99 |     [01;36m[Kend[m[K(initializer_list<_Tp> __ils) noexcept
+[1.186s]       |     [01;36m[K^~~[m[K
+[1.187s] [01m[K/usr/include/c++/9/initializer_list:99:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.187s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+[1.187s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.187s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.187s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.187s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.187s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.187s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.187s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.187s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.187s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.187s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&)[m[K’
+[1.187s]    68 |     [01;36m[Kend[m[K(_Container& __cont) -> decltype(__cont.end())
+[1.187s]       |     [01;36m[K^~~[m[K
+[1.187s] [01m[K/usr/include/c++/9/bits/range_access.h:68:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.187s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >][m[K’:
+[1.187s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K   required from here
+[1.187s] [01m[K/usr/include/c++/9/bits/range_access.h:68:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[1.187s]    68 |     end(_Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.187s]       |                                         [01;31m[K~~~~~~~^~~[m[K
+[1.187s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&)[m[K’
+[1.188s]    78 |     [01;36m[Kend[m[K(const _Container& __cont) -> decltype(__cont.end())
+[1.188s]       |     [01;36m[K^~~[m[K
+[1.188s] [01m[K/usr/include/c++/9/bits/range_access.h:78:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.188s] /usr/include/c++/9/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >][m[K’:
+[1.188s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K   required from here
+[1.188s] [01m[K/usr/include/c++/9/bits/range_access.h:78:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[1.188s]    78 |     end(const _Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[1.188s]       |                                               [01;31m[K~~~~~~~^~~[m[K
+[1.188s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])[m[K’
+[1.188s]    97 |     [01;36m[Kend[m[K(_Tp (&__arr)[_Nm])
+[1.188s]       |     [01;36m[K^~~[m[K
+[1.188s] [01m[K/usr/include/c++/9/bits/range_access.h:97:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.188s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’
+[1.188s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.188s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.188s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.188s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.188s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.188s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.188s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.188s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.188s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.188s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)[m[K’
+[1.188s]   106 |   template<typename _Tp> _Tp* [01;36m[Kend[m[K(valarray<_Tp>&);
+[1.188s]       |                               [01;36m[K^~~[m[K
+[1.189s] [01m[K/usr/include/c++/9/bits/range_access.h:106:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.189s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::valarray<_Tp>[m[K’
+[1.189s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.189s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.189s] In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+[1.189s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[1.189s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[1.189s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[1.189s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[1.189s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[1.189s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16[m[K:
+[1.189s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)[m[K’
+[1.189s]   107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+[1.189s]       |                                     [01;36m[K^~~[m[K
+[1.189s] [01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.189s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[1.189s]    52 |     for (char i: [01;36m[Kmessage2[m[K)
+[1.189s]       |                  [01;36m[K^~~~~~~~[m[K
+[1.190s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:54:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> > >::publish(std_msgs::msg::Int8MultiArray_<std::allocator<void> >&)[m[K’
+[1.190s]    54 |     publisher2_->publish(message2[01;31m[K)[m[K;
+[1.190s]       |                                  [01;31m[K^[m[K
+[1.190s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.190s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.190s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:18[m[K:
+[1.190s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = std_msgs::msg::Int8_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[1.190s]   185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+[1.190s]       |   [01;36m[K^~~~~~~[m[K
+[1.190s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::unique_ptr<std_msgs::msg::Int8_<std::allocator<void> >, std::default_delete<std_msgs::msg::Int8_<std::allocator<void> > > >[m[K’
+[1.190s]   185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+[1.191s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = std_msgs::msg::Int8_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.191s]   209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+[1.191s]       |   [01;36m[K^~~~~~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[1.191s]   209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+[1.191s]       |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::Int8_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+[1.191s]   226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[1.191s]       |   [01;36m[K^~~~~~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+[1.191s]   226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[1.191s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::Int8_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.191s]   232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[1.191s]       |   [01;36m[K^~~~~~~[m[K
+[1.191s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[1.191s]   232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[1.192s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.192s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = std_msgs::msg::Int8_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.192s]   246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+[1.192s]       |   [01;36m[K^~~~~~~[m[K
+[1.192s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Krclcpp::LoanedMessage<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[1.192s]   246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+[1.192s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.900s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.900s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.917s] make: *** [Makefile:141: all] Error 2
+[1.934s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

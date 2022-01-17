@@ -1,0 +1,29 @@
+[0.062s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.098s] [35m[1mScanning dependencies of target listener[0m
+[0.117s] [ 50%] Built target talker
+[0.132s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.866s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:82:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+[1.866s]    47 |     syncApproximate.registerCallback(std::bind(&MinimalSubscriber::callback,this,[01;31m[K_1[m[K,std::placeholders::_2));
+[1.868s]       |                                                                                  [01;31m[K^~[m[K
+[1.868s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[1.868s]                  from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+[1.868s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:30[m[K:
+[1.868s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+[1.868s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[1.868s]       |                                      [01;36m[K^~[m[K
+[1.868s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.868s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[1.868s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:21[m[K:
+[1.868s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+[1.869s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[1.869s]       |                                  [01;36m[K^~[m[K
+[4.509s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[4.510s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[4.514s] make: *** [Makefile:141: all] Error 2
+[4.533s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

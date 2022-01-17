@@ -1,0 +1,11 @@
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/install/strip.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/install/local.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/edit_cache.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/test.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/talker.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/install.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/list_install_components.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/rebuild_cache.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/listener.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/two_sum_uninstall.dir
+/home/usama/autoronto/coding_test/build/two_sum/CMakeFiles/uninstall.dir

@@ -1,0 +1,12 @@
+[0.021s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target listener[0m
+[0.075s] [ 50%] Built target talker
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.080s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.080s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ has not been declared
+[1.080s]    46 |     syncApproximate.registerCallback([01;31m[Kboost[m[K::bind(&MinimalSubscriber::callback,this,_1,std::placeholders::_2));
+[1.080s]       |                                      [01;31m[K^~~~~[m[K
+[3.009s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.014s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[3.015s] make: *** [Makefile:141: all] Error 2
+[3.021s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

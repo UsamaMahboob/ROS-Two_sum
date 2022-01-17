@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::callback(std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8)[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:76:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Int8MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’}
+   76 |     int8_t array_size = sizeof(array_msg[01;31m[K->[m[Kdata) / sizeof(array_msg->data[0]);
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:76:67:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Int8MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’}
+   76 |     int8_t array_size = sizeof(array_msg->data) / sizeof(array_msg[01;31m[K->[m[Kdata[0]);
+      |                                                                   [01;31m[K^~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:79:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Int8[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >[m[K’}
+   79 |       int8_t temp = target_msg[01;31m[K->[m[Kdata - array_msg->data[i];
+      |                               [01;31m[K^~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:79:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Int8MultiArray[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’}
+   79 |       int8_t temp = target_msg->data - array_msg[01;31m[K->[m[Kdata[i];
+      |                                                 [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,22 @@
+[0.131s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.185s] [35m[1mScanning dependencies of target listener[0m
+[0.241s] [ 50%] Built target talker
+[0.261s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.048s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSubscriberAndPublisher::SubscriberAndPublisher()[m[K’:
+[1.050s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:37:32:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.051s]    37 |       "/input", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::input_callback, this, _1));
+[1.051s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.051s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:40:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.051s]    40 |       "/target", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::target_callback, this, _1));
+[1.051s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.051s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:44:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.051s]    44 |       1000ms, std::bind(&[01;31m[KMinimalSubscriber[m[K::timer_callback, this));
+[1.051s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.074s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid SubscriberAndPublisher::calc_result()[m[K’:
+[1.074s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:92:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.074s]    92 |     for(auto i=0; [01;35m[Ki< input.data.size()[m[K; i++){
+[1.074s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[1.703s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.703s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[1.703s] make: *** [Makefile:141: all] Error 2
+[1.746s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

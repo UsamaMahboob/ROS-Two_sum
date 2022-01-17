@@ -1,0 +1,4 @@
+source;share/coding_challenge/local_setup.bash
+source;share/coding_challenge/local_setup.dsv
+source;share/coding_challenge/local_setup.sh
+source;share/coding_challenge/local_setup.zsh

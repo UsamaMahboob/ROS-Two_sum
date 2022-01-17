@@ -1,0 +1,39 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > > >::registerCallback(void (MinimalSubscriber::*)(const Int8MultiArray&, const Int8&), MinimalSubscriber*, const std::_Placeholder<1>&, const std::_Placeholder<2>&)[m[K’
+   46 |     syncApproximate.registerCallback(&MinimalSubscriber::callback,this,_1,std::placeholders::_2[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:290:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(C&) [with C = C; Policy = message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+  290 |   Connection [01;36m[KregisterCallback[m[K(C& callback)
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:290:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:96:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+   46 |     syncApproximate.registerCallback(&MinimalSubscriber::callback,this,_1,std::placeholders::_2[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:296:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = C; Policy = message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+  296 |   Connection [01;36m[KregisterCallback[m[K(const C& callback)
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:296:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:96:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+   46 |     syncApproximate.registerCallback(&MinimalSubscriber::callback,this,_1,std::placeholders::_2[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:302:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C, class T> message_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = C; T = T; Policy = message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+  302 |   Connection [01;36m[KregisterCallback[m[K(const C& callback, T* t)
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:302:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:96:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+   46 |     syncApproximate.registerCallback(&MinimalSubscriber::callback,this,_1,std::placeholders::_2[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:308:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C, class T> message_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(C&, T*) [with C = C; T = T; Policy = message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+  308 |   Connection [01;36m[KregisterCallback[m[K(C& callback, T* t)
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:308:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:96:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+   46 |     syncApproximate.registerCallback(&MinimalSubscriber::callback,this,_1,std::placeholders::_2[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

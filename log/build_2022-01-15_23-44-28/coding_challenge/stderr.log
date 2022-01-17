@@ -1,0 +1,4 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:70:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karray_size[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |     int8_t [01;35m[Karray_size[m[K = sizeof(message.data) / sizeof(message.data[0]);
+      |            [01;35m[K^~~~~~~~~~[m[K

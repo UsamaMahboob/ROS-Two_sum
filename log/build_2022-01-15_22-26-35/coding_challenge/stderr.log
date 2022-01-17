@@ -1,0 +1,196 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::callback(const Int8MultiArray&, const Int8&) const[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:82:29:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std::vector<signed char, std::allocator<signed char> >[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   82 |           result.push_back(i[01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1200:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::value_type = signed char][m[K’
+ 1200 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:83:37:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std::vector<signed char, std::allocator<signed char> >[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   83 |           result.push_back(map[temp][01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1200:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::value_type = signed char][m[K’
+ 1200 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+/opt/ros/foxy/include/message_filters/synchronizer.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const; T = MinimalSubscriber; Policy = message_filters::sync_policies::ApproximateTime<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> > >][m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:71:[m[K   required from here
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Signal9<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std_msgs::msg::Int8_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback(void (MinimalSubscriber::* const&)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const, MinimalSubscriber*&)[m[K’
+  304 |     return signal_.addCallback(callback, t[01;31m[K)[m[K;
+      |                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7, class P8> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; P8 = P8; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  170 |   Connection [01;36m[KaddCallback[m[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::* const)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P0 = P0; P1 = P1; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  180 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P0 = P0; P1 = P1; P2 = P2; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  186 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  192 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  198 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3, P4)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  204 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3, P4, P5)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  210 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3, P4, P5, P6)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  216 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3, P4, P5, P6, P7)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7, class P8> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; P8 = P8; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  222 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::*)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1), T*) [with T = T; P0 = P0; P1 = P1; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  228 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  234 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  240 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2, P3)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  246 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2, P3, P4)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  252 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2, P3, P4, P5)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  258 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2, P3, P4, P5, P6)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  264 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(P0, P1, P2, P3, P4, P5, P6, P7)[m[K’ and ‘[01m[Kvoid (MinimalSubscriber::)(const std_msgs::msg::Int8MultiArray_<std::allocator<void> >&, const std_msgs::msg::Int8_<std::allocator<void> >&) const[m[K’ have incompatible cv-qualifiers
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = C; M0 = std_msgs::msg::Int8MultiArray_<std::allocator<void> >; M1 = std_msgs::msg::Int8_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  270 |   Connection [01;36m[KaddCallback[m[K( C& callback)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:22[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/synchronizer.h:304:43:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+  304 |     return signal_.addCallback(callback, t[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

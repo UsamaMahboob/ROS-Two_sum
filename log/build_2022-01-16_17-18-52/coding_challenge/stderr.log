@@ -1,0 +1,4 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kvoid separate_allback(const ConstSharedPtr&, const ConstSharedPtr&, std::vector<signed char, std::allocator<signed char> >&)[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:139:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  139 |     int8_t [01;35m[Knum[m[K = 8;
+      |            [01;35m[K^~~[m[K

@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.098s] [35m[1mScanning dependencies of target listener[0m
+[0.107s] [ 50%] Built target talker
+[0.129s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.797s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:74:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.805s]    74 |   void callback(const std_msgs::msg::Int8MultiArray::ConstPtr& array_msg, const std_msgs::msg::Int8::ConstPtr& target_msg[01;35m[K)[m[K
+[1.805s]       |                                                                                                                          [01;35m[K^[m[K
+[1.806s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/int8_multi_array.hpp:7[m[K,
+[1.806s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:29[m[K:
+[1.806s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/int8_multi_array__struct.hpp:110:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.806s]   110 |     [01;36m[KConstPtr[m[K;
+[1.806s]       |     [01;36m[K^~~~~~~~[m[K
+[1.806s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:74:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.806s]    74 |   void callback(const std_msgs::msg::Int8MultiArray::ConstPtr& array_msg, const std_msgs::msg::Int8::ConstPtr& target_msg[01;35m[K)[m[K
+[1.806s]       |                                                                                                                          [01;35m[K^[m[K
+[1.806s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/int8.hpp:7[m[K,
+[1.806s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:28[m[K:
+[1.806s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/int8__struct.hpp:104:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.806s]   104 |     [01;36m[KConstPtr[m[K;
+[1.806s]       |     [01;36m[K^~~~~~~~[m[K
+[1.857s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::callback(const ConstPtr&, const ConstPtr&)[m[K’:
+[1.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:78:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.858s]    78 |     int8_t array_size = sizeof(array_msg.[01;31m[Kdata[m[K) / sizeof(array_msg.data[0]);
+[1.858s]       |                                          [01;31m[K^~~~[m[K
+[1.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:78:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.858s]    78 |     int8_t array_size = sizeof(array_msg.data) / sizeof(array_msg.[01;31m[Kdata[m[K[0]);
+[1.858s]       |                                                                   [01;31m[K^~~~[m[K
+[1.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:81:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.865s]    81 |       int8_t temp = target_msg.[01;31m[Kdata[m[K - array_msg.data[i];
+[1.866s]       |                                [01;31m[K^~~~[m[K
+[1.866s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:81:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.866s]    81 |       int8_t temp = target_msg.data - array_msg.[01;31m[Kdata[m[K[i];
+[1.866s]       |                                                 [01;31m[K^~~~[m[K
+[4.119s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[4.122s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[4.122s] make: *** [Makefile:141: all] Error 2
+[4.131s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

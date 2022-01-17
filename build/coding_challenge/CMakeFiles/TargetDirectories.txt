@@ -1,0 +1,11 @@
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/install/strip.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/install/local.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/edit_cache.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/test.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/talker.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/install.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/list_install_components.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/rebuild_cache.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/listener.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/coding_challenge_uninstall.dir
+/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/uninstall.dir

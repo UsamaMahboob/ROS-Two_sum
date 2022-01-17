@@ -1,0 +1,167 @@
+[0.012s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.046s] [35m[1mScanning dependencies of target listener[0m
+[0.061s] [ 50%] Built target talker
+[0.065s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.858s]    53 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KInt8MultiArray[m[K>::SharedPtr publisher_;
+[0.858s]       |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.858s]    53 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray[01;31m[K>[m[K::SharedPtr publisher_;
+[0.858s]       |                                                  [01;31m[K^[m[K
+[0.858s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.858s]    53 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray>::[01;31m[KSharedPtr[m[K publisher_;
+[0.858s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[0.858s]       |                                                              [32m[K;[m[K
+[0.859s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:53:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.859s]    53 |   rclcpp::Publisher<std_msgs::msg::Int8MultiArray>::SharedPtr [01;31m[Kpublisher_[m[K;
+[0.859s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[0.859s]       |                                                               [32m[Krcl_publisher_t[m[K
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:56:46:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.861s]    56 |   message_filters::Subscriber<std_msgs::msg::[01;31m[KInt8MultiArray[m[K> array_sub_;
+[0.861s]       |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:56:46:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:56:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.861s]    56 |   message_filters::Subscriber<std_msgs::msg::Int8MultiArray[01;31m[K>[m[K array_sub_;
+[0.861s]       |                                                            [01;31m[K^[m[K
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:57:46:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.861s]    57 |   message_filters::Subscriber<std_msgs::msg::[01;31m[KInt8[m[K> target_sub_;
+[0.861s]       |                                              [01;31m[K^~~~[m[K
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:57:46:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.861s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:57:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.861s]    57 |   message_filters::Subscriber<std_msgs::msg::Int8[01;31m[K>[m[K target_sub_;
+[0.861s]       |                                                  [01;31m[K^[m[K
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:69:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[0.862s]    69 |   void callback(const std_msgs::msg::[01;31m[KInt8MultiArray[m[K array_msg, const std_msgs::msg::Int8 target_msg)
+[0.862s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:69:85:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[0.862s]    69 |   void callback(const std_msgs::msg::Int8MultiArray array_msg, const std_msgs::msg::[01;31m[KInt8[m[K target_msg)
+[0.862s]       |                                                                                     [01;31m[K^~~~[m[K
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:37:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::array_sub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[0.862s]    37 |     array_sub_.[01;31m[Ksubscribe[m[K(this,"/input",10);
+[0.862s]       |                [01;31m[K^~~~~~~~~[m[K
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:38:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksubscribe[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::target_sub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[0.862s]    38 |     target_sub_.[01;31m[Ksubscribe[m[K(this,"/target",10);
+[0.862s]       |                 [01;31m[K^~~~~~~~~[m[K
+[0.862s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:40:45:[m[K [01;31m[Kerror: [m[K‘[01m[KApproximateTime[m[K’ in namespace ‘[01m[Kmessage_filters::sync_policies[m[K’ does not name a template type
+[0.862s]    40 |     typedef message_filters::sync_policies::[01;31m[KApproximateTime[m[K<std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8> approximate_policy;
+[0.862s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproximate_policy[m[K’ was not declared in this scope
+[0.865s]    41 |     message_filters::Synchronizer<[01;31m[Kapproximate_policy[m[K>syncApproximate(approximate_policy(10), array_sub_, target_sub_);
+[0.865s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.865s]    41 |     message_filters::Synchronizer<approximate_policy[01;31m[K>[m[KsyncApproximate(approximate_policy(10), array_sub_, target_sub_);
+[0.865s]       |                                                     [01;31m[K^[m[K
+[0.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:41:117:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+[0.865s]    41 |     message_filters::Synchronizer<approximate_policy>syncApproximate(approximate_policy(10), array_sub_, target_sub_[01;31m[K)[m[K;
+[0.865s]       |                                                                                                                     [01;31m[K^[m[K
+[0.865s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:43:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KregisterCallback[m[K’ in ‘[01m[KsyncApproximate[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[0.866s]    43 |     syncApproximate.[01;31m[KregisterCallback[m[K(&MinimalSubscriber::callback,this);
+[0.866s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.866s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.866s]    45 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10);
+[0.866s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.866s]       |     [32m[Krcl_publisher_t[m[K
+[0.866s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.866s]    45 |     publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KInt8MultiArray[m[K>("/solution", 10);
+[0.867s]       |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.867s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.867s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_publisher<<expression error> >(const char [10], int)[m[K’
+[0.867s]    45 |     publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10[01;31m[K)[m[K;
+[0.867s]       |                                                                                       [01;31m[K^[m[K
+[0.867s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.867s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.867s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[0.867s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20[m[K:
+[0.867s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.867s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[0.867s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.867s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.867s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.867s]    45 |     publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/solution", 10[01;31m[K)[m[K;
+[0.867s]       |                                                                                       [01;31m[K^[m[K
+[0.867s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[0.867s]    47 |       [01;31m[K500ms[m[K, std::bind(&MinimalSubscriber::timer_callback, this));
+[0.868s]       |       [01;31m[K^~~~~[m[K
+[0.871s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[0.871s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:61:20:[m[K [01;31m[Kerror: [m[K‘[01m[KInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.871s]    61 |     std_msgs::msg::[01;31m[KInt8MultiArray[m[K message;
+[0.871s]       |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.872s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[0.873s]    62 |     [01;31m[Kmessage[m[K.data.clear();
+[0.873s]       |     [01;31m[K^~~~~~~[m[K
+[0.874s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.874s]    66 |     [01;31m[Kpublisher_[m[K->publish(message);
+[0.874s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.874s]       |     [32m[Krcl_publisher_t[m[K
+[0.874s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::callback(int, int)[m[K’:
+[0.874s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::unordered_map[m[K’?
+[0.874s]    71 |     [01;31m[Kunordered_map[m[K<int,int> map;
+[0.875s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[0.875s]       |     [32m[Kstd::unordered_map[m[K
+[0.875s] In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+[0.875s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17[m[K:
+[0.875s] [01m[K/usr/include/c++/9/bits/unordered_map.h:102:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map[m[K’ declared here
+[0.875s]   102 |     class [01;36m[Kunordered_map[m[K
+[0.875s]       |           [01;36m[K^~~~~~~~~~~~~[m[K
+[0.875s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:71:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[0.875s]    71 |     unordered_map<[01;31m[Kint[m[K,int> map;
+[0.875s]       |                   [01;31m[K^~~[m[K
+[0.875s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:73:41:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[0.875s]    73 |     int8_t array_size = sizeof(array_msg[01;31m[K->[m[Kdata) / sizeof(array_msg->data[0]);
+[0.875s]       |                                         [01;31m[K^~[m[K
+[0.875s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:73:67:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[0.875s]    73 |     int8_t array_size = sizeof(array_msg->data) / sizeof(array_msg[01;31m[K->[m[Kdata[0]);
+[0.875s]       |                                                                   [01;31m[K^~[m[K
+[0.875s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:76:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[0.875s]    76 |       int8_t temp = target_msg[01;31m[K->[m[Kdata - array_msg->data[i];
+[0.875s]       |                               [01;31m[K^~[m[K
+[0.876s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:76:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[0.876s]    76 |       int8_t temp = target_msg->data - array_msg[01;31m[K->[m[Kdata[i];
+[0.876s]       |                                                 [01;31m[K^~[m[K
+[0.876s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:78:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::map[m[K’?
+[0.876s]    78 |       if([01;31m[Kmap[m[K.find(temp) != map.end()){
+[0.876s]       |          [01;31m[K^~~[m[K
+[0.876s]       |          [32m[Kstd::map[m[K
+[0.876s] In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:20[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.876s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[0.876s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20[m[K:
+[0.876s] [01m[K/usr/include/c++/9/bits/stl_map.h:100:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::map[m[K’ declared here
+[0.876s]   100 |     class [01;36m[Kmap[m[K
+[0.877s]       |           [01;36m[K^~~[m[K
+[0.877s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::map[m[K’?
+[0.877s]    83 |       [01;31m[Kmap[m[K[temp] = i;
+[0.877s]       |       [01;31m[K^~~[m[K
+[0.877s]       |       [32m[Kstd::map[m[K
+[0.877s] In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:20[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.877s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[0.877s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20[m[K:
+[0.877s] [01m[K/usr/include/c++/9/bits/stl_map.h:100:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::map[m[K’ declared here
+[0.877s]   100 |     class [01;36m[Kmap[m[K
+[0.877s]       |           [01;36m[K^~~[m[K
+[1.124s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.128s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[1.129s] make: *** [Makefile:141: all] Error 2
+[1.134s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

@@ -1,0 +1,7 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:70:32:[m[K [01;31m[Kerror: [m[K‘[01m[Karray_msg[m[K’ was not declared in this scope
+   70 |     int8_t array_size = sizeof([01;31m[Karray_msg[m[K->data) / sizeof(array_msg->data[0]);
+      |                                [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

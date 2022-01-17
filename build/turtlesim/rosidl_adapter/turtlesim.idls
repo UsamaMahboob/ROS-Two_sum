@@ -1,0 +1,8 @@
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/usama/autoronto/coding_test/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000926] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001023] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.001091] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.022525] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.058294] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.059591] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098761] (-) TimerEvent: {}
+[0.099535] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.118843] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.134206] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.199804] (-) TimerEvent: {}
+[0.300804] (-) TimerEvent: {}
+[0.403523] (-) TimerEvent: {}
+[0.506719] (-) TimerEvent: {}
+[0.617375] (-) TimerEvent: {}
+[0.746155] (-) TimerEvent: {}
+[0.847052] (-) TimerEvent: {}
+[0.956102] (-) TimerEvent: {}
+[1.070107] (-) TimerEvent: {}
+[1.180275] (-) TimerEvent: {}
+[1.283505] (-) TimerEvent: {}
+[1.387141] (-) TimerEvent: {}
+[1.493945] (-) TimerEvent: {}
+[1.601208] (-) TimerEvent: {}
+[1.705968] (-) TimerEvent: {}
+[1.814287] (-) TimerEvent: {}
+[1.867053] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.867527] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:47:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to \xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[1.867680] (coding_challenge) StderrLine: {'line': b'   47 |     syncApproximate.registerCallback(std::bind(&MinimalSubscriber::callback,this,\x1b[01;31m\x1b[K_1\x1b[m\x1b[K,std::placeholders::_2));\n'}
+[1.867806] (coding_challenge) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.869943] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:2356\x1b[m\x1b[K,\n'}
+[1.870003] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:22\x1b[m\x1b[K,\n'}
+[1.870049] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:30\x1b[m\x1b[K:\n'}
+[1.870093] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/placeholders.hpp:46:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr const boost::arg<1> boost::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.870133] (coding_challenge) StderrLine: {'line': b'   46 | BOOST_STATIC_CONSTEXPR boost::arg<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[1.870182] (coding_challenge) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.870230] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:19\x1b[m\x1b[K,\n'}
+[1.870271] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[1.870311] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[1.870349] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.870397] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.870434] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.870470] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[1.870506] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:21\x1b[m\x1b[K:\n'}
+[1.870542] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:211:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Placeholder<1> std::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.870581] (coding_challenge) StderrLine: {'line': b'  211 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[1.870618] (coding_challenge) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.914763] (-) TimerEvent: {}
+[2.018783] (-) TimerEvent: {}
+[2.119821] (-) TimerEvent: {}
+[2.222393] (-) TimerEvent: {}
+[2.330423] (-) TimerEvent: {}
+[2.431867] (-) TimerEvent: {}
+[2.539297] (-) TimerEvent: {}
+[2.641828] (-) TimerEvent: {}
+[2.743403] (-) TimerEvent: {}
+[2.844952] (-) TimerEvent: {}
+[2.946987] (-) TimerEvent: {}
+[3.047871] (-) TimerEvent: {}
+[3.151603] (-) TimerEvent: {}
+[3.252183] (-) TimerEvent: {}
+[3.354699] (-) TimerEvent: {}
+[3.461327] (-) TimerEvent: {}
+[3.562718] (-) TimerEvent: {}
+[3.665759] (-) TimerEvent: {}
+[3.774580] (-) TimerEvent: {}
+[3.883305] (-) TimerEvent: {}
+[3.987025] (-) TimerEvent: {}
+[4.087778] (-) TimerEvent: {}
+[4.190386] (-) TimerEvent: {}
+[4.294196] (-) TimerEvent: {}
+[4.395697] (-) TimerEvent: {}
+[4.499198] (-) TimerEvent: {}
+[4.511226] (coding_challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[4.511498] (coding_challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[4.515104] (coding_challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.521079] (coding_challenge) CommandEnded: {'returncode': 2}
+[4.604916] (-) TimerEvent: {}
+[4.632121] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 2}
+[4.648051] (-) EventReactorShutdown: {}

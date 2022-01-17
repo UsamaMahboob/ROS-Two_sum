@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002019] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002105] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.002162] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.012003] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.025983] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.026123] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.063224] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.076189] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.084085] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.098532] (-) TimerEvent: {}
+[0.202811] (-) TimerEvent: {}
+[0.316227] (-) TimerEvent: {}
+[0.418446] (-) TimerEvent: {}
+[0.519582] (-) TimerEvent: {}
+[0.620135] (-) TimerEvent: {}
+[0.720682] (-) TimerEvent: {}
+[0.824618] (-) TimerEvent: {}
+[0.925332] (-) TimerEvent: {}
+[1.032752] (-) TimerEvent: {}
+[1.136278] (-) TimerEvent: {}
+[1.237268] (-) TimerEvent: {}
+[1.248001] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.250448] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:69:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >::insert(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.250564] (coding_challenge) StderrLine: {'line': b'   69 |     message.data.insert(1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.250622] (coding_challenge) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.250690] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:72\x1b[m\x1b[K,\n'}
+[1.250776] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.251305] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<signed char*, std::vector<signed char, std::allocator<signed char> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = signed char*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const signed char*, std::vector<signed char, std::allocator<signed char> > >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const signed char*; std::vector<_Tp, _Alloc>::value_type = signed char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.251489] (coding_challenge) StderrLine: {'line': b'  130 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[1.251664] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.251883] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.252144] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[1.252217] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.252271] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1290:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<signed char*, std::vector<signed char, std::allocator<signed char> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = signed char*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const signed char*, std::vector<signed char, std::allocator<signed char> > >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const signed char*; std::vector<_Tp, _Alloc>::value_type = signed char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.252316] (coding_challenge) StderrLine: {'line': b' 1290 |       \x1b[01;36m\x1b[Kinsert\x1b[m\x1b[K(const_iterator __position, value_type&& __x)\n'}
+[1.252375] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.252425] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1290:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.252481] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1307:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::initializer_list<_Tp>) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<signed char*, std::vector<signed char, std::allocator<signed char> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = signed char*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const signed char*, std::vector<signed char, std::allocator<signed char> > >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const signed char*]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.252574] (coding_challenge) StderrLine: {'line': b' 1307 |       \x1b[01;36m\x1b[Kinsert\x1b[m\x1b[K(const_iterator __position, initializer_list<value_type> __l)\n'}
+[1.252638] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.252678] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1307:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.252811] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1332:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = signed char; _Alloc = std::allocator<signed char>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<signed char*, std::vector<signed char, std::allocator<signed char> > >; typename std::_Vector_base<_Tp, _Alloc>::pointer = signed char*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const signed char*, std::vector<signed char, std::allocator<signed char> > >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const signed char*; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = signed char]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.252884] (coding_challenge) StderrLine: {'line': b' 1332 |       \x1b[01;36m\x1b[Kinsert\x1b[m\x1b[K(const_iterator __position, size_type __n, const value_type& __x)\n'}
+[1.252935] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.252977] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1332:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.253015] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1376:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _InputIterator, class> std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = signed char; _Alloc = std::allocator<signed char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.253057] (coding_challenge) StderrLine: {'line': b' 1376 |  \x1b[01;36m\x1b[Kinsert\x1b[m\x1b[K(const_iterator __position, _InputIterator __first,\n'}
+[1.253093] (coding_challenge) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.253480] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1376:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.253533] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:69:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.253583] (coding_challenge) StderrLine: {'line': b'   69 |     message.data.insert(1\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.253691] (coding_challenge) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.337546] (-) TimerEvent: {}
+[1.438002] (-) TimerEvent: {}
+[1.539005] (-) TimerEvent: {}
+[1.640230] (-) TimerEvent: {}
+[1.740715] (-) TimerEvent: {}
+[1.841413] (-) TimerEvent: {}
+[1.941880] (-) TimerEvent: {}
+[2.042478] (-) TimerEvent: {}
+[2.144170] (-) TimerEvent: {}
+[2.245738] (-) TimerEvent: {}
+[2.346591] (-) TimerEvent: {}
+[2.447614] (-) TimerEvent: {}
+[2.548490] (-) TimerEvent: {}
+[2.649438] (-) TimerEvent: {}
+[2.750296] (-) TimerEvent: {}
+[2.850870] (-) TimerEvent: {}
+[2.952453] (-) TimerEvent: {}
+[3.053035] (-) TimerEvent: {}
+[3.154575] (-) TimerEvent: {}
+[3.255149] (-) TimerEvent: {}
+[3.355636] (-) TimerEvent: {}
+[3.458763] (-) TimerEvent: {}
+[3.563771] (-) TimerEvent: {}
+[3.631191] (coding_challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.636350] (coding_challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.636512] (coding_challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.641452] (coding_challenge) CommandEnded: {'returncode': 2}
+[3.666362] (-) TimerEvent: {}
+[3.689077] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 2}
+[3.700945] (-) EventReactorShutdown: {}

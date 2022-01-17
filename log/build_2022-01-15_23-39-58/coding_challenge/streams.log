@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target listener[0m
+[0.071s] [ 50%] Built target talker
+[0.079s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.244s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[1.244s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:70:32:[m[K [01;31m[Kerror: [m[K‘[01m[Karray_msg[m[K’ was not declared in this scope
+[1.244s]    70 |     int8_t array_size = sizeof([01;31m[Karray_msg[m[K->data) / sizeof(array_msg->data[0]);
+[1.244s]       |                                [01;31m[K^~~~~~~~~[m[K
+[3.836s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.836s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[3.836s] make: *** [Makefile:141: all] Error 2
+[3.841s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

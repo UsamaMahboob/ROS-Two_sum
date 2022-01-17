@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000466] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000527] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000713] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.000772] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.010354] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.011309] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.036555] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.101574] (-) TimerEvent: {}
+[0.160620] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.197275] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.205049] (-) TimerEvent: {}
+[0.252893] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.305590] (-) TimerEvent: {}
+[0.406913] (-) TimerEvent: {}
+[0.509927] (-) TimerEvent: {}
+[0.610334] (-) TimerEvent: {}
+[0.713026] (-) TimerEvent: {}
+[0.813632] (-) TimerEvent: {}
+[0.918167] (-) TimerEvent: {}
+[1.019293] (-) TimerEvent: {}
+[1.120873] (-) TimerEvent: {}
+[1.221967] (-) TimerEvent: {}
+[1.288971] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.289458] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:48:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289527] (coding_challenge) StderrLine: {'line': b'   48 |       \x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&MinimalSubscriber::timer_callback, this));\n'}
+[1.289572] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.294042] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.294203] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.294329] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.294448] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.294668] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.294773] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.294895] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.294945] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.295059] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.295152] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.295250] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[1.295349] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[1.295455] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.295556] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:66:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _data_type = class std::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.295748] (coding_challenge) StderrLine: {'line': b'   66 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\'", message.data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[1.295850] (coding_challenge) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.299589] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::callback(std_msgs::msg::Int8MultiArray, std_msgs::msg::Int8)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.300021] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:72:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunordered_map\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.300131] (coding_challenge) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Kunordered_map\x1b[m\x1b[K<int,int> map;\n'}
+[1.300234] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.300336] (coding_challenge) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::unordered_map\x1b[m\x1b[K\n'}
+[1.300435] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/unordered_map:47\x1b[m\x1b[K,\n'}
+[1.300534] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.300634] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unordered_map.h:102:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.300733] (coding_challenge) StderrLine: {'line': b'  102 |     class \x1b[01;36m\x1b[Kunordered_map\x1b[m\x1b[K\n'}
+[1.300832] (coding_challenge) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.300935] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:72:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.301049] (coding_challenge) StderrLine: {'line': b'   72 |     unordered_map<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K,int> map;\n'}
+[1.301149] (coding_challenge) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.301247] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:74:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Int8MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.301359] (coding_challenge) StderrLine: {'line': b'   74 |     int8_t array_size = sizeof(array_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata) / sizeof(array_msg->data[0]);\n'}
+[1.301463] (coding_challenge) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.301562] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:74:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Int8MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.301664] (coding_challenge) StderrLine: {'line': b'   74 |     int8_t array_size = sizeof(array_msg->data) / sizeof(array_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata[0]);\n'}
+[1.301764] (coding_challenge) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.301864] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:77:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Int8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.301977] (coding_challenge) StderrLine: {'line': b'   77 |       int8_t temp = target_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata - array_msg->data[i];\n'}
+[1.302079] (coding_challenge) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.302178] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:77:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst Int8MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.302311] (coding_challenge) StderrLine: {'line': b'   77 |       int8_t temp = target_msg->data - array_msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata[i];\n'}
+[1.302358] (coding_challenge) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.302598] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:79:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.302732] (coding_challenge) StderrLine: {'line': b'   79 |       if(\x1b[01;31m\x1b[Kmap\x1b[m\x1b[K.find(temp) != map.end()){\n'}
+[1.302857] (coding_challenge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.302978] (coding_challenge) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kstd::map\x1b[m\x1b[K\n'}
+[1.303097] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/map:61\x1b[m\x1b[K,\n'}
+[1.303212] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:20\x1b[m\x1b[K,\n'}
+[1.303344] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.303461] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.303568] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.303669] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.303766] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.303863] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.303968] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.304056] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.304146] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.304240] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[1.304329] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[1.304425] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.304525] (coding_challenge) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.304583] (coding_challenge) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.304677] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:84:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.304777] (coding_challenge) StderrLine: {'line': b'   84 |       \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K[temp] = i;\n'}
+[1.304882] (coding_challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.304982] (coding_challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kstd::map\x1b[m\x1b[K\n'}
+[1.305081] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/map:61\x1b[m\x1b[K,\n'}
+[1.305181] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:20\x1b[m\x1b[K,\n'}
+[1.305280] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.305326] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.305426] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.305522] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.305622] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.305719] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.305815] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.305923] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.306028] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.306127] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/message_filters/subscriber.h:38\x1b[m\x1b[K,\n'}
+[1.306225] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[1.306413] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.307317] (coding_challenge) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.307366] (coding_challenge) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.322528] (-) TimerEvent: {}
+[1.424150] (-) TimerEvent: {}
+[1.525710] (-) TimerEvent: {}
+[1.634118] (-) TimerEvent: {}
+[1.737616] (-) TimerEvent: {}
+[1.840142] (-) TimerEvent: {}
+[1.942676] (-) TimerEvent: {}
+[2.043880] (-) TimerEvent: {}
+[2.144313] (-) TimerEvent: {}
+[2.247485] (-) TimerEvent: {}
+[2.356603] (-) TimerEvent: {}
+[2.464550] (-) TimerEvent: {}
+[2.566601] (-) TimerEvent: {}
+[2.669624] (-) TimerEvent: {}
+[2.770489] (-) TimerEvent: {}
+[2.871775] (-) TimerEvent: {}
+[2.973336] (-) TimerEvent: {}
+[3.074409] (-) TimerEvent: {}
+[3.175544] (-) TimerEvent: {}
+[3.277080] (-) TimerEvent: {}
+[3.280918] (coding_challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.281750] (coding_challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.282274] (coding_challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.285116] (coding_challenge) CommandEnded: {'returncode': 2}
+[3.340440] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 2}
+[3.352836] (-) EventReactorShutdown: {}

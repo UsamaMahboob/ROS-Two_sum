@@ -1,0 +1,4 @@
+source;share/two_sum/local_setup.bash
+source;share/two_sum/local_setup.dsv
+source;share/two_sum/local_setup.sh
+source;share/two_sum/local_setup.zsh

@@ -1,0 +1,27 @@
+[0.045s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.076s] [35m[1mScanning dependencies of target listener[0m
+[0.098s] [ 50%] Built target talker
+[0.106s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.935s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[0.935s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:45:73:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[0.935s]    45 |       "/input", 10, std::bind(&MinimalSubscriber::input_callback, this, [01;31m[K_1[m[K));
+[0.935s]       |                                                                         [01;31m[K^~[m[K
+[0.935s]       |                                                                         [32m[Kstd::placeholders::_1[m[K
+[0.935s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.937s]                  from [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:25[m[K:
+[0.937s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[0.937s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[0.937s]       |                                  [01;36m[K^~[m[K
+[0.963s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In function ‘[01m[Kvoid separate_allback(const ConstSharedPtr&, const ConstSharedPtr&, std::vector<signed char, std::allocator<signed char> >&)[m[K’:
+[0.965s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:134:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.965s]   134 |     int8_t [01;35m[Knum[m[K = 8;
+[0.965s]       |            [01;35m[K^~~[m[K
+[1.588s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.591s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[1.597s] make: *** [Makefile:141: all] Error 2
+[1.602s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

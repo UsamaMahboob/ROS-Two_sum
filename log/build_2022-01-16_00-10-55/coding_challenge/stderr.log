@@ -1,0 +1,8 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:54:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >[m[K’ and ‘[01m[Kint[m[K’)
+   54 |     publisher2_->publish(message2[01;31m[K[[m[K1]);
+      |                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,21 @@
+[0.109s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.168s] [35m[1mScanning dependencies of target listener[0m
+[0.196s] [ 50%] Built target talker
+[0.217s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.236s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[1.236s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:78:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.236s]    78 |     int8_t array_size = sizeof(array_msg.[01;31m[Kdata[m[K) / sizeof(array_msg.data[0]);
+[1.236s]       |                                          [01;31m[K^~~~[m[K
+[1.236s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:78:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.236s]    78 |     int8_t array_size = sizeof(array_msg.data) / sizeof(array_msg.[01;31m[Kdata[m[K[0]);
+[1.237s]       |                                                                   [01;31m[K^~~~[m[K
+[1.237s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:81:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.242s]    81 |       int8_t temp = target_msg.[01;31m[Kdata[m[K - array_msg.data[i];
+[1.244s]       |                                [01;31m[K^~~~[m[K
+[1.244s] [01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:81:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[1.244s]    81 |       int8_t temp = target_msg.data - array_msg.[01;31m[Kdata[m[K[i];
+[1.244s]       |                                                 [01;31m[K^~~~[m[K
+[3.258s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.260s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[3.260s] make: *** [Makefile:141: all] Error 2
+[3.264s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

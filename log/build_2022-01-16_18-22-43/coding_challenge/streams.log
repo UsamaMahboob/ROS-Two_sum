@@ -1,0 +1,20 @@
+[0.066s] Invoking command in '/home/usama/autoronto/coding_test/build/coding_challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8
+[0.104s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.298s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.715s] -- Configuring incomplete, errors occurred!
+[0.715s] See also "/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/CMakeOutput.log".
+[0.717s] See also "/home/usama/autoronto/coding_test/build/coding_challenge/CMakeFiles/CMakeError.log".
+[0.717s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.717s]   ament_target_dependencies() the first argument must be a valid target name
+[0.717s] Call Stack (most recent call first):
+[0.717s]   CMakeLists.txt:19 (ament_target_dependencies)
+[0.717s] 
+[0.717s] 
+[0.741s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.782s] Invoked command in '/home/usama/autoronto/coding_test/build/coding_challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/coding_challenge -- -j8 -l8

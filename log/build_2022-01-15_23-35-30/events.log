@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000990] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001616] (coding_challenge) JobQueued: {'identifier': 'coding_challenge', 'dependencies': OrderedDict()}
+[0.001725] (coding_challenge) JobStarted: {'identifier': 'coding_challenge'}
+[0.011412] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'cmake'}
+[0.020304] (coding_challenge) JobProgress: {'identifier': 'coding_challenge', 'progress': 'build'}
+[0.020445] (coding_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usama/autoronto/coding_test/build/coding_challenge', '--', '-j8', '-l8'], 'cwd': '/home/usama/autoronto/coding_test/build/coding_challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'usama'), ('SSH_AGENT_PID', '1052'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/usama'), ('OLDPWD', '/home/usama/autoronto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'usama'), ('JOURNAL_STREAM', '8:15642'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'usama'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/usama-VirtualBox:@/tmp/.ICE-unix/1094,unix/usama-VirtualBox:/tmp/.ICE-unix/1094'), ('INVOCATION_ID', 'ebe83f797627418eb01b1750240dc99c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25a2a2f3_5d8f_4bf3_bba5_f083ed063ea2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.573'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usama/autoronto/coding_test/build/coding_challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.063649] (coding_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.080698] (coding_challenge) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.084870] (coding_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099126] (-) TimerEvent: {}
+[0.199779] (-) TimerEvent: {}
+[0.302366] (-) TimerEvent: {}
+[0.404850] (-) TimerEvent: {}
+[0.506498] (-) TimerEvent: {}
+[0.607195] (-) TimerEvent: {}
+[0.707540] (-) TimerEvent: {}
+[0.809106] (-) TimerEvent: {}
+[0.912775] (-) TimerEvent: {}
+[0.965589] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.967914] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbegin(std_msgs::msg::Int8MultiArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.967975] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;31m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.968018] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.968058] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/utility:76\x1b[m\x1b[K,\n'}
+[0.968096] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[0.968134] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.968189] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.968231] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:89:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.968275] (coding_challenge) StderrLine: {'line': b'   89 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[0.968313] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.968349] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:89:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.968387] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.968425] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.968460] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.968501] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.968536] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.968570] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.968604] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.968638] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.968673] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.968707] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.968741] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.968776] (coding_challenge) StderrLine: {'line': b'   48 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.begin())\n'}
+[0.968809] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.968843] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.972958] (coding_challenge) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(_Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.973451] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K   required from here\n'}
+[0.973506] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:48:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.973551] (coding_challenge) StderrLine: {'line': b'   48 |     begin(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[0.976937] (coding_challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[0.977001] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.977050] (coding_challenge) StderrLine: {'line': b'   58 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.begin())\n'}
+[0.977090] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.979225] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.979281] (coding_challenge) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.begin()) std::begin(const _Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.979333] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K   required from here\n'}
+[0.979376] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:58:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983010] (coding_challenge) StderrLine: {'line': b'   58 |     begin(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[0.983063] (coding_challenge) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[0.983105] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:87:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983145] (coding_challenge) StderrLine: {'line': b'   87 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Tp (&__arr)[_Nm])\n'}
+[0.983183] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.983219] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:87:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.983255] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983294] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.983331] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.983366] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.983401] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.983434] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.983468] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.983502] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.983536] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.983570] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.983605] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:104:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983640] (coding_challenge) StderrLine: {'line': b'  104 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(valarray<_Tp>&);\n'}
+[0.983674] (coding_challenge) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.983707] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:104:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.983743] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983803] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.983847] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.983884] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.983920] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.983955] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.983989] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.984024] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.984059] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.984093] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.984130] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:105:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.984166] (coding_challenge) StderrLine: {'line': b'  105 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&);\n'}
+[0.984200] (coding_challenge) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.984234] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:105:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.984268] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.984308] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.984342] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.984376] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kend(std_msgs::msg::Int8MultiArray_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.984414] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/utility:76\x1b[m\x1b[K,\n'}
+[0.984449] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[0.984482] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.984515] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.984552] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:99:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.984588] (coding_challenge) StderrLine: {'line': b'   99 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[0.984621] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.984654] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/initializer_list:99:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.984688] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.984723] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.984764] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.984809] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.984848] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.987071] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.987122] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.987162] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.987201] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.987239] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.987277] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.987314] (coding_challenge) StderrLine: {'line': b'   68 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.end())\n'}
+[0.987350] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.987385] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.987420] (coding_challenge) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(_Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.987455] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K   required from here\n'}
+[0.987489] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:68:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.987533] (coding_challenge) StderrLine: {'line': b'   68 |     end(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[0.987572] (coding_challenge) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[0.987606] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.987641] (coding_challenge) StderrLine: {'line': b'   78 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.end())\n'}
+[0.987675] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.987740] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.987782] (coding_challenge) StderrLine: {'line': b'/usr/include/c++/9/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> decltype (__cont.end()) std::end(const _Container&) [with _Container = std_msgs::msg::Int8MultiArray_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.987821] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K   required from here\n'}
+[0.987857] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:78:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.987897] (coding_challenge) StderrLine: {'line': b'   78 |     end(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[0.987935] (coding_challenge) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[0.987970] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.988005] (coding_challenge) StderrLine: {'line': b'   97 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Tp (&__arr)[_Nm])\n'}
+[0.988038] (coding_challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.988071] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.988105] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.988141] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.988175] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.988209] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.988242] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.988275] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.988308] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.988346] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.988379] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.988411] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.988445] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:106:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.988479] (coding_challenge) StderrLine: {'line': b'  106 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(valarray<_Tp>&);\n'}
+[0.988512] (coding_challenge) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.988545] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:106:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.988579] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.988613] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.988646] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.988695] (coding_challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:54\x1b[m\x1b[K,\n'}
+[0.988736] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[0.988775] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[0.988811] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[0.988849] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[0.988884] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[0.988918] (coding_challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[0.988952] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:107:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.988985] (coding_challenge) StderrLine: {'line': b'  107 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>&);\n'}
+[0.989019] (coding_challenge) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.989052] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/range_access.h:107:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.989086] (coding_challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/usama/autoronto/coding_test/src/coding_challenge/src/publisher_member_function.cpp:52:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.989126] (coding_challenge) StderrLine: {'line': b'   52 |     for (char i: \x1b[01;36m\x1b[Kmessage2\x1b[m\x1b[K)\n'}
+[0.989160] (coding_challenge) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.015169] (-) TimerEvent: {}
+[1.116742] (-) TimerEvent: {}
+[1.218450] (-) TimerEvent: {}
+[1.324739] (-) TimerEvent: {}
+[1.425519] (-) TimerEvent: {}
+[1.528736] (-) TimerEvent: {}
+[1.629289] (-) TimerEvent: {}
+[1.710474] (coding_challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[1.710721] (coding_challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[1.712353] (coding_challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.714113] (coding_challenge) CommandEnded: {'returncode': 2}
+[1.730719] (-) TimerEvent: {}
+[1.755735] (coding_challenge) JobEnded: {'identifier': 'coding_challenge', 'rc': 2}
+[1.766590] (-) EventReactorShutdown: {}

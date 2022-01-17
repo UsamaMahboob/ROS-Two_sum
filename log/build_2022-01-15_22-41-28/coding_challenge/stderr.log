@@ -1,0 +1,7 @@
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/usama/autoronto/coding_test/src/coding_challenge/src/subscriber_member_function.cpp:46:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ has not been declared
+   46 |     syncApproximate.registerCallback([01;31m[Kboost[m[K::bind(&MinimalSubscriber::callback,this,_1,std::placeholders::_2));
+      |                                      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

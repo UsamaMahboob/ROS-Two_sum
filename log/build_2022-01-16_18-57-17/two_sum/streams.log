@@ -1,0 +1,30 @@
+[0.032s] Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/two_sum -- -j8 -l8
+[0.378s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.380s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.931s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.100s] [ 75%] Built target talker
+[8.129s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.300s] [100%] Built target listener
+[8.308s] Invoked command in '/home/usama/autoronto/coding_test/build/two_sum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/usama/autoronto/coding_test/build/two_sum -- -j8 -l8
+[8.336s] Invoking command in '/home/usama/autoronto/coding_test/build/two_sum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/two_sum
+[8.341s] -- Install configuration: ""
+[8.342s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker
+[8.343s] -- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker" to ""
+[8.343s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener
+[8.345s] -- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener" to ""
+[8.347s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/package_run_dependencies/two_sum
+[8.348s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/parent_prefix_path/two_sum
+[8.348s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.sh
+[8.349s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.dsv
+[8.349s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.sh
+[8.350s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.dsv
+[8.350s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.bash
+[8.350s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.sh
+[8.351s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.zsh
+[8.351s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.dsv
+[8.352s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.dsv
+[8.356s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/packages/two_sum
+[8.356s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig.cmake
+[8.356s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig-version.cmake
+[8.357s] -- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.xml
+[8.360s] Invoked command in '/home/usama/autoronto/coding_test/build/two_sum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/usama/autoronto/coding_test/build/two_sum

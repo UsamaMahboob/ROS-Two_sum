@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker
+-- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/talker" to ""
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener
+-- Set runtime path of "/home/usama/autoronto/coding_test/install/two_sum/lib/two_sum/listener" to ""
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/package_run_dependencies/two_sum
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/parent_prefix_path/two_sum
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.sh
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/ament_prefix_path.dsv
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.sh
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/environment/path.dsv
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.bash
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.sh
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.zsh
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/local_setup.dsv
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.dsv
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/ament_index/resource_index/packages/two_sum
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig.cmake
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/cmake/two_sumConfig-version.cmake
+-- Installing: /home/usama/autoronto/coding_test/install/two_sum/share/two_sum/package.xml
